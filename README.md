@@ -39,7 +39,7 @@ Each wallet is scored on a scale of 0–1000 based on the above features using a
 | 0xfaa076...ef2 | 732 |
 | 0xab12cd...78f | 201 |
 
-## 📊 Score Buckets
+## Score Buckets
 
 | Score Range | Description |
 |-------------|-------------|
@@ -50,7 +50,7 @@ Each wallet is scored on a scale of 0–1000 based on the above features using a
 | 601–800     | Good usage, consistent |
 | 801–1000    | Excellent behavior, zero liquidations |
 
-## 🛠️ Dependencies
+##  Dependencies
 
 pandas
 numpy
