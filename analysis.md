@@ -28,10 +28,5 @@ After assigning risk scores to 100 wallets, we performed an analysis of score di
 - Diversified lending actions
 - Zero liquidations
 
-## Visual Insights
-
-- Correlation heatmaps between actions and score
-- Wallet activity timeline plots
-- Score distribution histogram
 
 > See `main_notebook.ipynb` for full visual code and plots
