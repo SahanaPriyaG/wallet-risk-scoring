@@ -5,7 +5,7 @@ After assigning risk scores to 100 wallets, we performed an analysis of score di
 
 ## Score Distribution
 
-![Score Distribution](images/score_distribution.png)
+![Score Distribution](score_distribution.png)
 
 | Score Bucket | # Wallets | Description |
 |--------------|-----------|-------------|
