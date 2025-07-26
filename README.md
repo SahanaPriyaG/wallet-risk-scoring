@@ -10,17 +10,50 @@ This project demonstrates:
 - Risk-based scoring system
 - Exploratory analysis of wallet behaviors
 
+---
+
 ## Methodology
 
-### Feature Engineering:
-- Borrow Count
-- Repayment Ratio
-- Liquidation Events
-- Net Borrowed Amount
-- Time-based activity patterns
+| Step | Description |
+|------|-------------|
+| 1️ | **Data Collection** from Compound V2 via APIs (mocked or simulated for this demo). |
+| 2️ | **Feature Engineering** including repayment count, borrow-repay ratio, liquidation count, etc. |
+| 3️ | **Risk Scoring** using normalized features and weighted scoring logic. |
+| 4️ | **Score Bucketing** from 0 to 1000 into risk categories. |
+| 5️ | **Visualization & Export** via graphs and CSV output. |
 
-### Scoring:
-Each wallet is scored on a scale of 0–1000 based on the above features using a weighted heuristic system.
+---
+
+##  Features Considered
+
+| Feature                | Purpose                               |
+|------------------------|----------------------------------------|
+| Repayment Count        | Higher = lower risk                   |
+| Borrow-to-Repay Ratio  | Lower = better risk profile           |
+| Liquidation Count      | Higher = higher risk                  |
+| Unique Assets Used     | Indicates diversification             |
+| Activity Span (Days)   | Longer activity = more reliable       |
+
+---
+
+## Risk Scoring Logic
+
+| Feature                | Weight (%) |
+|------------------------|------------|
+| Repayment Count        | 25%        |
+| Borrow-to-Repay Ratio  | 20%        |
+| Liquidation Count      | -25%       |
+| Unique Assets Used     | 10%        |
+| Activity Span (Days)   | 20%        |
+
+---
+
+## Visualizations
+
+- Risk Score Distribution
+- Risk Bucket Histogram
+- Feature Correlation Heatmap
+---
 
 ## Files Included
 
