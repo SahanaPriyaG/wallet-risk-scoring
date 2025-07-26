@@ -27,10 +27,9 @@ Each wallet is scored on a scale of 0–1000 based on the above features using a
 | File | Description |
 |------|-------------|
 | `main_notebook.ipynb` | Full code |
-| `wallet_scores.csv` | Wallet ID with computed scores |
+| `wallet_scores_Output......csv` | Wallet ID with computed scores |
 | `analysis.md` | Score bucket breakdown & behavior insights |
 | `README.md` | Project overview and method |
-| `requirements.txt` | List of Python dependencies |
 
 ## Output
 
