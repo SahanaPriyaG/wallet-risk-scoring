@@ -32,12 +32,9 @@ Each wallet is scored on a scale of 0–1000 based on the above features using a
 | `README.md` | Project overview and method |
 | `requirements.txt` | List of Python dependencies |
 
-## 📈 Example Output
+## Output
 
-| Wallet Address | Score |
-|----------------|-------|
-| 0xfaa076...ef2 | 732 |
-| 0xab12cd...78f | 201 |
+![Score Distribution](wallet_scores_Output......csv)
 
 ## Score Buckets
 
