@@ -1,9 +1,9 @@
 
-# 📊 Risk Score Analysis
+# Risk Score Analysis
 
 After assigning risk scores to 100 wallets, we performed an analysis of score distribution and wallet behavior.
 
-## 📈 Score Distribution
+## Score Distribution
 
 ![Score Distribution](images/score_distribution.png)
 
@@ -16,19 +16,19 @@ After assigning risk scores to 100 wallets, we performed an analysis of score di
 | 601–800      | 36        | Good usage and repayments |
 | 801–1000     | 18        | Excellent credit behavior |
 
-## 🕵️‍♀️ Behavior Patterns
+## Behavior Patterns
 
-### 🚩 Low-Scoring Wallets:
+### Low-Scoring Wallets:
 - High borrow-to-repay imbalance
 - Frequent liquidation events
 - Sudden spikes in borrow activity
 
-### ✅ High-Scoring Wallets:
+### High-Scoring Wallets:
 - Consistent repayment
 - Diversified lending actions
 - Zero liquidations
 
-## 🔍 Visual Insights
+## Visual Insights
 
 - Correlation heatmaps between actions and score
 - Wallet activity timeline plots
